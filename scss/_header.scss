@@ -1,0 +1,43 @@
+.hero {
+  &__logo {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 4rem;
+  }
+
+  &__title {
+    color: var(--dark-grayish-blue);
+    letter-spacing: 1.5px;
+    margin-bottom: 1.5rem;
+  }
+
+  &__subtitle {
+    color: var(--grayish-blue);
+    margin-bottom: 4rem;
+  }
+}
+
+.btns {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+
+  &__ios {
+    background-color: var(--primary-cyan);
+  }
+
+  &__ios:hover,
+  &__ios:active {
+    opacity: 75%;
+  }
+
+  &__mac {
+    background-color: var(--primary-blue);
+  }
+
+  &__mac:hover,
+  &__mac:active {
+    opacity: 75%;
+  }
+}

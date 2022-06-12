@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1024px) {
+  body {
+    background-image: url(/images/bg-header-mobile.png);
+    background-size: 100%;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .track__columns {
+    flex-direction: column;
+  }
+
+  .track__columns__img {
+    transform: translateX(0%);
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .track__columns__row {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .clipbord {
+    padding: 0;
+  }
+
+  .clipbord__img {
+    width: 90%;
+  }
+
+  .supercharge__cols {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .partners {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .links {
+    flex-direction: column;
+    column-gap: none;
+    gap: 2rem;
+  }
+
+  .col {
+    gap: 0rem;
+  }
+
+  .social {
+    margin-top: 2rem;
+  }
+}
